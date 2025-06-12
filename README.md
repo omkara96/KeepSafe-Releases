@@ -1,6 +1,6 @@
 # KeepSafe-Releases
 KeepSafe Android Application Releases APK files, Release Notes and Documentation
-# 📱 KeepSafe – Public Beta Testing
+# 📱 KeepSafe – Public Version
 
 Welcome to the official **public repository** for the **KeepSafe Android App**.
 
@@ -17,27 +17,22 @@ Here you can:
 
 **KeepSafe** is a personal security and privacy-focused Android app that helps you manage:
 - Personal Notes
-- Passwords (with private mode)
-- Call logs, notifications, and app usage history
+- Passwords (with private mode): Store your passwords securely
 - Bug reporting and feedback submission
 
 It securely stores data using:
-- 🔒 Local Room DB (offline-first)
 - ☁️ Firebase Auth, Firestore, and Storage
 - 🛡️ Encrypted fields for private data
-- 🧠 Smart cloud sync and restore
+- 🧠 Smart cloud sync and restore --In Progress
 
 ---
 
-## ✅ Current Features (Beta v0.1.1)
+## ✅ Current Features (Beta v0.0.1)
 
 - 🔐 **Login/Signup** using Firebase Authentication
-- 📝 **Notes** with public and private mode (Cypher protected)
 - 🔑 **Password Manager** (comment-based `@Private` detection)
-- 🌙 **Light & Dark Theme**
 - 🧭 Navigation Drawer + Bottom Navigation
-- 🚀 Manual Sync with Firebase and Azure (for passwords)
-- 🧾 Runtime permission handling (Call Logs, SMS, Notifications, Storage)
+- 🧾 Runtime permission handling (Read Storage)
 - 🛠️ **Bug Reporting**: Raise feature requests, bugs or suggestions with screenshot upload
 - 🔄 Offline storage and auto-sync when online
 
@@ -58,7 +53,9 @@ It securely stores data using:
 ## 🔜 Planned for Next Releases (v0.2+)
 
 - ✅ Replace quick buttons with Bottom NavigationView
+- 📝 **Notes** with public and private mode (Cypher protected)
 - 📂 **Restore from Cloud**: Button to import data after reinstall
+- 🚀 Manual Sync with Firebase and Azure (for passwords)
 - 🧮 **Notes/Passwords count check** vs Firebase
 - 🌐 Sync log activities (app usage, calls, notifications) to Firebase
 - 🔔 **Firebase Cloud Messaging** integration
@@ -79,7 +76,7 @@ It securely stores data using:
 ## 🗣️ How to Report Bugs or Suggest Features
 
 1. Use the in-app **Report Issue** feature (preferred).
-2. Or open an [Issue on GitHub](https://github.com/YOUR_USERNAME/keepsafe-apk/issues).
+2. Or open an [Issue on GitHub]([https://github.com/YOUR_USERNAME/keepsafe-apk/issues](https://github.com/omkara96/KeepSafe-Releases/issues)).
 3. Include:
    - Steps to reproduce
    - Screenshots (if any)
@@ -90,7 +87,7 @@ It securely stores data using:
 ## 🔒 Data & Privacy Notice
 
 - Your account and data are protected via **Firebase Authentication**.
-- All private content is **encrypted locally** and not shared unless synced.
+- All private content is **encrypted locally** and not shared.
 - Media & screenshots are uploaded securely to **Firebase Storage**.
 
 ---
@@ -99,7 +96,7 @@ It securely stores data using:
 
 | Version | Status | Key Additions |
 |---------|--------|---------------|
-| v0.1.0  | ✅ Released | Core UI, Room DB, Firebase Auth |
+| v0.1.0  | ✅ Released | Core UI, Firebase Firestore, Firebase Auth |
 | v0.1.1  | ✅ Released | Bug fixes, Screenshot uploads, Cloud Sync |
 | v0.2.0  | ⏳ In Progress | Bottom nav, Restore cloud data, Azure sync |
 
@@ -107,7 +104,7 @@ It securely stores data using:
 
 ## 🤝 Contributions
 
-This repo is for **APK hosting and public testing only**. If you'd like to contribute to the actual source code, reach out or check the main source repository [here](https://github.com/YOUR_USERNAME/keepsafe-app-source).
+This repo is for **APK hosting and public issues and discussions**.
 
 ---
 
