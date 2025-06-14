@@ -38,7 +38,7 @@ It ensures security with:
 
 | Version | Download | Release Notes |
 |---------|----------|----------------|
-| ✅ Latest (v0.1.1) | [🔗 Download APK]([https://github.com/omkara96/KeepSafe-Releases/raw/refs/heads/main/KeepSafe_V0.0.2.apk]) | Bug fixes, Screenshot uploads, Sync improvements |
+| ✅ Latest (v0.1.1) | [🔗 Download APK](https://github.com/omkara96/KeepSafe-Releases/raw/refs/heads/main/KeepSafe_V0.0.2.apk) | Bug fixes, Screenshot uploads, Sync improvements |
 
 📌 **Install Instructions**
 - Enable `Install Unknown Apps` from settings.
