@@ -1,7 +1,7 @@
 {
-  "latest_version": "1.1",
-  "version_code": 2,
-  "release_date": "2025-06-08",
+  "latest_version": "2.1",
+  "version_code": 3,
+  "release_date": "2025-07-20",
   "apk_url": "https://github.com/omkara96/KeepSafe-Releases/raw/refs/heads/main/KeepSafe_V1.0.apk",
   "changelog": [
     "✔️ Fixed crash on screenshotUrl parsing",
